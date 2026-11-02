@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Руководство пользователя мессенджера Q.Sock">
+  <title>Q.Sock — руководство пользователя</title>
+  <link rel="stylesheet" href="vendor/vue-5.1.0.css">
+  <style>
+    :root { --theme-color: #007acc; }
+    body { font-family: Inter, Segoe UI, Arial, sans-serif; }
+    .markdown-section { max-width: 900px; }
+    .markdown-section img { max-height: 540px; object-fit: contain; }
+    .markdown-section input[type=checkbox] { accent-color: #007acc; margin-right: .5em; }
+    .sidebar-nav a { white-space: normal; }
+  </style>
+</head>
+<body>
+  <div id="app">Загрузка руководства Q.Sock…</div>
+  <script>
+    window.$docsify = {
+      name: 'Q.Sock',
+      homepage: 'overview.md',
+      loadSidebar: '_sidebar.md',
+      relativePath: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      notFoundPage: true,
+      externalLinkTarget: '_blank'
+    };
+  </script>
+  <script src="vendor/docsify-5.1.0.min.js"></script>
+</body>
+</html>

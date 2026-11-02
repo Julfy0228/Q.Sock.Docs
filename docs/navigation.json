@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "home": "overview.md",
+  "pages": [
+    {
+      "path": "overview.md",
+      "title": "О мессенджере"
+    },
+    {
+      "path": "guide/getting-started.md",
+      "title": "Начало работы"
+    },
+    {
+      "path": "guide/chats.md",
+      "title": "Чаты и сообщения"
+    },
+    {
+      "path": "guide/calls.md",
+      "title": "Звонки и голосовые комнаты"
+    },
+    {
+      "path": "guide/settings.md",
+      "title": "Настройки и оформление"
+    },
+    {
+      "path": "integrations/moodle.md",
+      "title": "Учебные занятия Moodle",
+      "requiresModule": "moodle"
+    },
+    {
+      "path": "help/troubleshooting.md",
+      "title": "Решение проблем"
+    }
+  ]
+}

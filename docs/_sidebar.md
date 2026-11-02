@@ -1,0 +1,10 @@
+- [О мессенджере](/overview.md)
+- Руководство
+  - [Начало работы](/guide/getting-started.md)
+  - [Чаты и сообщения](/guide/chats.md)
+  - [Звонки и голосовые комнаты](/guide/calls.md)
+  - [Настройки и оформление](/guide/settings.md)
+- Расширения
+  - [Учебные занятия Moodle](/integrations/moodle.md)
+- Помощь
+  - [Решение проблем](/help/troubleshooting.md)
